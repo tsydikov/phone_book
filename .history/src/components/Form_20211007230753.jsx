@@ -28,13 +28,12 @@ const Form = () => {
         onChange={(e) => setName(e.target.value)}
       />
       <input
-      className="mx-3"
         type="text"
         value={phone}
         placeholder="Введите телефон"
         onChange={(e) => setPhone(e.target.value)}
       />
-      <Button  onClick={addNewPhoneBookItem}>ADD</Button>
+      <Button className="mx-3" onClick={addNewPhoneBookItem}>ADD</Button>
     </Container>
   );
 };
